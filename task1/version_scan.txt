@@ -1,0 +1,25 @@
+# Nmap 7.95 scan initiated Mon Jun 23 01:59:32 2025 as: /usr/lib/nmap/nmap -sV -oN version_scan.txt 192.168.0.0/24
+Nmap scan report for 192.168.0.1
+Host is up (0.011s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     Dropbear sshd 2012.55 (protocol 2.0)
+53/tcp   open  domain  ISC BIND 9.10.3-P4 (Ubuntu Linux)
+80/tcp   open  http    TP-LINK TD-W8968 http admin
+1900/tcp open  upnp    Portable SDK for UPnP devices 1.6.19 (Linux 2.6.36; UPnP 1.0)
+MAC Address: C0:06:C3:64:CB:2E (TP-Link Limited)
+Service Info: OS: Linux; Device: WAP; CPE: cpe:/o:linux:linux_kernel, cpe:/h:tp-link:td-w8968, cpe:/o:linux:linux_kernel:2.6.36
+
+Nmap scan report for 192.168.0.101
+Host is up (0.00055s latency).
+All 1000 scanned ports on 192.168.0.101 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: F0:A6:54:61:D4:03 (Cloud Network Technology Singapore PTE.)
+
+Nmap scan report for 192.168.0.109
+Host is up (0.0000090s latency).
+All 1000 scanned ports on 192.168.0.109 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Jun 23 01:59:45 2025 -- 256 IP addresses (3 hosts up) scanned in 13.50 seconds
